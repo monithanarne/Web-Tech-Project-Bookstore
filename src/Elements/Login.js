@@ -14,7 +14,6 @@ import { Box } from '@mui/material';
 import theme from '../styles/theme'
 import bookContext from '../Context/bookContext';
 
-// TODO remove, this demo shouldn't need to reset the theme.
 
 const validationSchema = Yup.object({
 
@@ -80,13 +79,13 @@ export default function Login() {
         </Typography>
         <Typography component="ul" variant="h6" sx={{marginTop: '80px', width:'100%'}}>
               <Typography component="li" variant="li" sx={{textAlign: 'start', fontFamily: 'Josefin Sans'}}>
-                LogIn to Explore Most Valuable Site  
+                LogIn to Explore  
               </Typography> 
               <Typography component="li" variant="li" sx={{textAlign: 'start', fontFamily: 'Josefin Sans'}}>
                 We Are Happy To See You Again! 
               </Typography> 
               <Typography component="li" variant="li" sx={{textAlign: 'start', fontFamily: 'Josefin Sans'}}>
-                "Education Is Like Tigress's Milk. He Who Drinks, Does Not Live Without Roaring"  
+                "Every Good Leader is a reader"  
               </Typography> 
         </Typography>
         <Button onClick={()=>{navigate('/signup')}} sx={{marginTop: "20px", position:'absolute', bottom: {md: '10px',sm: '70%', xs: '50%'}, left: {md: '25%',xs: '50%'}, transform: "translate(-50%,-50%)", fontFamily: 'Josefin Sans'}} color="secondary" variant="contained" type="submit">
